@@ -1,33 +1,62 @@
 <!DOCTYPE html>
-<html>
+
   <head>
     <title>Chore Door!</title>
-    <link href="./style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
-  </head>
+    <link href='./style.css' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type='text/css'>
+  <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
 
   <body>
-<div class="header">
 
-<div class="title-row">
-  <img src="https://content.codecademy.com/projects/chore-door/images/star.svg">
-  <img src="https://content.codecademy.com/projects/chore-door/images/star.svg">
-</div>
+    <div class="header">
+      <img src="https://content.codecademy.com/projects/chore-door/images/logo.svg">
+    </div>
 
-  <img src="https://content.codecademy.com/projects/chore-door/images/logo.svg">  
-</div>
+    <div class="first-row">
+      <img src="https://content.codecademy.com/projects/chore-door/images/star.svg">
+      <p class="instructions-title">Instructions</p>
+      <img src="https://content.codecademy.com/projects/chore-door/images/star.svg">
+    </div>
 
-<div class="door-row">
-  
-  <img id="door1" class="door-frame" src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg">
+    <table class="second-row">
+      <tr>
+        <td class="instructions-number">1</td>
+        <td class="instructions-text">Hiding behind one of these doors is the ChoreBot.</td>
+      </tr>
+      <tr>
+        <td class="instructions-number">2</td>
+        <td class="instructions-text">Your mission is to open all of the doors without running into the ChoreBot.</td>
+      </tr>
+      <tr>
+        <td class="instructions-number">3</td>
+        <td class="instructions-text">If you manage to avoid the ChoreBot until the very last door, you win!</td>
+      </tr>
+      <tr>
+        <td class="instructions-number">4</td>
+        <td class="instructions-text">See if you can score a winning streak!</td>
+      </tr>
+    </table>
 
-  <img id="door2" class="door-frame" src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg">
+    <div class="door-row">
+      <img class="door-frame" src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg" id="door1">
+      <img class="door-frame" src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg" id="door2">
+      <img class="door-frame" src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg" id="door3">
+    </div>
 
-  <img id="door3" class="door-frame" src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg">
+    <div class="start-row" id="start">Good luck!</div>
 
-</div>
+    <table class="score-row">
+      <tr>
+        <th class="score-text">Current streak:</th>
+        <th class="score-text">Best streak:</th>
+      </tr>
+      <tr>
+        <th class="score-box" id="score-number"></th>
+        <th class="score-box" id="high-score-number"></th>
+      <tr>
+    </table>
 
-<script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 
-  </body>
+  <script type="text/javascript">(function(){window['__CF$cv$params']={r:'646cb41ccdddec66',m:'e27387da21a4163a80969524bdd1b4f973d4089e-1619575295-1800-AWovXA2vJLXr4zfmHMS12VxzzPcszBlk6rZ6mXs7MTqjiPs6ojEhephZ1U+EFTeHKPzi59vcAsPpN8vSQWOVvgPFxCkNZVnmWlWYMLZcW+QmpLGc296ApKdR3Kz/SCicuHU2GyurUTu79Kv6j/41h+qDl26jGAZCetGtyVrCI0VYFw0e7mAELdQqFn657w7Jbg==',s:[0x7be7ab9c4e,0x1d5ced222e],}})();</script></body>
 </html>
