@@ -26,6 +26,8 @@ const isClicked = (door) => {
   }
 }
 
+// copy script into next project
+
 const isBot = (door) => {
   if (door.src === botDoorPath) {
     return true;
